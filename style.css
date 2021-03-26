@@ -1,3 +1,96 @@
 body {
-    background-color: brown;
+    width: auto;
+    height: 100%;
+    margin: 0;
+    background-image: radial-gradient(rgb(90, 67, 67), rgb(39, 32, 32));
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+* {
+    box-sizing: border-box;
+}
+.profile-content {
+    height: 100%;
+    width: 100%;
+}
+.profile-pic-name-block {
+    height: 40%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+}
+.intro-block {
+    height: 30%;
+    width: 100%;
+    padding: 1% 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.intro-block h2 {
+    font-weight: 400;
+}
+.technologies-block {
+    height: 180%;
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.profile-pic-block {
+    height: 100%;
+    width: 18%;
+    border-radius: 100%;
+}
+.profile-pic-block img{
+    border-radius: 100%;
+    height: 100%;
+    width: 100%;
+}
+.name-role-info {
+    width: 82%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 10%;
+}
+.name-role-info h1 {
+    font-size: 60px;
+}
+.name-role-info h3 {
+    font-size: 30px;
+    font-weight: 400;
+}
+.tech-cards-container {
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.cards-list {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+.tech-card {
+    height: 100%;
+    width: 20%;
+    border-radius: 5px;
+    background-image: linear-gradient(rgb(117, 84, 84), rgb(148, 126, 126));
+    padding: 2%;
+}
+.progress-div p {
+    font-size: 30px;
+}
+.progress-div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
 }
