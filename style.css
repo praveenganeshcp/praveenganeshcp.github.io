@@ -1,99 +1,232 @@
-body {
-    width: auto;
-    height: 100%;
-    margin: 0;
-    background-color:  #afd275;;
-    font-family: 'Source Sans Pro', sans-serif;
+@media only screen and (min-width: 600px) {
+    body {
+        width: 100%;
+        height: 100%;
+        background-color: lightgreen;
+        font-family: 'Source Sans Pro', sans-serif;
+        margin: 0;
+    }
+    .profile-content {
+        height: 100%;
+        width: 100%;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .profile-pic-name-block {
+        height: 100%;
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .profile-pic-block {
+        height: 80%;
+        width: 80%;
+        border-radius: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .profile-pic-block img{
+        border-radius: 100%;
+        height: 95%;
+        width: 95%;
+    }
+    .name-role-info {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .name-role-info h1 {
+        font-size: 6em;
+    }
+    .name-role-info h3 {
+        font-size: 3em;
+        font-weight: 400;
+    }
+    .intro-block {
+        height: 45%;
+        width: 100%;
+        padding: 1% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-block h3 {
+        font-size: 3em;
+    }
+    .intro-block h2 {
+        font-size: 3em;
+        font-weight: 400;
+    }
+    .technologies-block {
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .tech-cards-container {
+        height: 38%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 2%;
+    }
+    .tech-cards-container h2 {
+        font-size: 3em;
+        margin-left: 4%;
+    }
+    .tech-heading {
+        height: 2%;
+    }
+    .cards-list {
+        width: 100%;
+        height: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-between;
+        padding: 2%;
+    }
+    .tech-card {
+        height: 50%;
+        width: 46%;
+        border-radius: 5px;
+        background-image: linear-gradient(rgb(117, 84, 84), rgb(148, 126, 126));
+        padding: 2%;
+        margin: 2%;
+    }
+    .progress-div p {
+        font-size: 3em;
+        color: white;
+    }
+    .progress-div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .neumorphic-shadows {
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.4);
+    }
+    .neumorphic-inline-shadows {
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.4);
+    }
 }
-* {
-    box-sizing: border-box;
-}
-.profile-content {
-    height: 100%;
-    width: 100%;
-}
-.profile-pic-name-block {
-    height: 40%;
-    width: 100%;
-    padding: 2%;
-    display: flex;
-}
-.intro-block {
-    height: 30%;
-    width: 100%;
-    padding: 1% 5%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.intro-block h2 {
-    font-weight: 400;
-}
-.technologies-block {
-    height: 180%;
-    width: 100%;
-    padding: 2%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-}
-.profile-pic-block {
-    height: 100%;
-    width: 18%;
-    border-radius: 100%;
-}
-.profile-pic-block img{
-    border-radius: 100%;
-    height: 100%;
-    width: 100%;
-}
-.name-role-info {
-    width: 82%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    margin-left: 10%;
-}
-.name-role-info h1 {
-    font-size: 60px;
-}
-.name-role-info h3 {
-    font-size: 30px;
-    font-weight: 400;
-}
-.tech-cards-container {
-    height: 30%;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-}
-.cards-list {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 2%;
-}
-.tech-card {
-    height: 100%;
-    width: 20%;
-    border-radius: 5px;
-    background-image: linear-gradient(rgb(117, 84, 84), rgb(148, 126, 126));
-    padding: 2%;
-}
-.progress-div p {
-    font-size: 30px;
-}
-.progress-div {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-}
-.neumorphic-shadows {
-    box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
-    -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+@media only screen and (min-width: 992px) {
+    body {
+        width: auto;
+        height: 100%;
+        margin: 0;
+      background-color:  #afd275;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .profile-content {
+        height: 100%;
+        width: 100%;
+    }
+    .profile-pic-name-block {
+        height: 40%;
+        width: 100%;
+        padding: 2%;
+        display: flex;
+    }
+    .intro-block {
+        height: 30%;
+        width: 100%;
+        padding: 1% 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .intro-block h2 {
+        font-weight: 400;
+    }
+    .technologies-block {
+        height: 180%;
+        width: 100%;
+        padding: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .profile-pic-block {
+        height: 100%;
+        width: 18%;
+        border-radius: 100%;
+    }
+    .profile-pic-block img{
+        border-radius: 100%;
+        height: 100%;
+        width: 100%;
+    }
+    .name-role-info {
+        width: 82%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-left: 10%;
+    }
+    .name-role-info h1 {
+        font-size: 60px;
+    }
+    .name-role-info h3 {
+        font-size: 30px;
+        font-weight: 400;
+    }
+    .tech-cards-container {
+        height: 30%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .cards-list {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 2%;
+    }
+    .tech-card {
+        height: 100%;
+        width: 20%;
+        border-radius: 5px;
+        background-image: linear-gradient(rgb(117, 84, 84), rgb(148, 126, 126));
+        padding: 2%;
+    }
+    .progress-div p {
+        font-size: 30px;
+    }
+    .progress-div {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    }
+    .neumorphic-shadows {
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.3);
+    }
+    .neumorphic-inline-shadows {
+        box-shadow: 12px 12px 16px 0 rgba(0, 0, 0, 0.25),
+        -8px -8px 12px 0 rgba(255, 255, 255, 0.4);
+    }
 }
